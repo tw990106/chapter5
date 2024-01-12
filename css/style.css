@@ -1,0 +1,110 @@
+/* common elements */
+*{
+     padding: 0;
+     margin: 0;
+}
+div{
+    color: #fff;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.green{
+    background-color: #1B8639;
+}
+.yellow{
+    background-color: #EEE96D;
+}
+.purple{
+    background-color: #C97BE4;
+}
+h1{
+    margin-bottom: 60px;
+}
+h2{
+    margin-bottom: 30px;
+}
+
+/* main */
+.q-1{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 80px;
+}
+.q-1 div:last-of-type{
+     display: flex;
+}
+.box-3{
+    margin-left: 10px;
+}
+.q-2{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.box-5{
+    align-self: center;
+}
+.box-6{
+    align-self: flex-end;
+}
+.q-3{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+.box-7{
+    width: 200px;
+    height: 200px;
+    background-color: #CCC3F1;
+    position: relative;
+}
+.box-8{
+    background-color: #624BC2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.q-4{
+    position: relative;
+    padding-bottom: 200px;
+}
+.box-9{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FEA8A8;
+}
+.box-10{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: #FEDBDB;
+}
+.q-5{
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+.box-11{
+    width: 400px;
+    height: 150px;
+    background-color: #E7D1EE;
+    position: relative;
+}
+.box-12{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box-13{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
